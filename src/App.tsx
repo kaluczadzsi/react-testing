@@ -1,9 +1,9 @@
-import Skills from "./skills/Skills";
+import Counter from "./counter/Counter";
 
 const App = () => {
   return (
     <div>
-      <Skills skills={["HTML", "CSS"]} />
+      <Counter />
     </div>
   );
 };
