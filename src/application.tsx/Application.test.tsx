@@ -37,5 +37,8 @@ describe("Application", () => {
       "I agree to the terms and conditions"
     );
     expect(termsElement).toBeInTheDocument();
+
+    const paragraphElement = screen.getByText("All fields are mandatory");
+    expect(paragraphElement).toBeInTheDocument();
   });
 });

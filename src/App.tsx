@@ -1,9 +1,9 @@
-import { Application } from "./application.tsx/Application";
+import Skills from "./skills/Skills";
 
 const App = () => {
   return (
     <div>
-      <Application />
+      <Skills skills={["HTML", "CSS"]} />
     </div>
   );
 };
